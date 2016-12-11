@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B445E04BC7A4B705E82739FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445E62C651EB9E8E8F943F1 /* ViewController.swift */; };
+		B445E173AAD7D90BFB6E5871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B445EE13A4A34F923C429637 /* Assets.xcassets */; };
+		B445E1C792FBD90E1EA04A92 /* green_apple.png in Resources */ = {isa = PBXBuildFile; fileRef = B445EF333AA0083AF7F36D16 /* green_apple.png */; };
+		B445E2C6F30A12527CAEC06F /* Apple-35.png in Resources */ = {isa = PBXBuildFile; fileRef = B445E23CF38B64B542283383 /* Apple-35.png */; };
+		B445E2CE270E4B5D7AC27FDA /* red_apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B445E2EFFA2CEEA06347F2F2 /* red_apple.jpg */; };
+		B445E73E1B12CE3451E1C5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445EDFC5F5A463F70A04BF9 /* AppDelegate.swift */; };
+		B445E92233D14F592D09EFAA /* AppleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445E0DDF1DF6FC0735E0D06 /* AppleImageView.swift */; };
+		B445EA9563A0C6ADABB0FFFC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B445E01DEB354195F9CA03DE /* Info.plist */; };
+		B445EC5FFBF15482BEB1EF5C /* AppleDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445E26BAE87053D025FEEE5 /* AppleDescriptionViewController.swift */; };
+		B445EC6982C939B97ED349A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B445E5B73FF7AAD3BBD58B75 /* LaunchScreen.storyboard */; };
+		B445EDB8CD46EA77F6ED9101 /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445E20D2A9C00F8B0872DDF /* Apple.swift */; };
+		B445EE16EB49254166D28EAA /* AppleDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445EB7633A80A55F0A7C75E /* AppleDescriptionView.swift */; };
+		B445EF1B7DE283E25F4FB033 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445E493AF99E5D10D835571 /* UIViewExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B445E01DEB354195F9CA03DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B445E0DDF1DF6FC0735E0D06 /* AppleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleImageView.swift; sourceTree = "<group>"; };
+		B445E20D2A9C00F8B0872DDF /* Apple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apple.swift; sourceTree = "<group>"; };
+		B445E23CF38B64B542283383 /* Apple-35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple-35.png"; sourceTree = "<group>"; };
+		B445E26BAE87053D025FEEE5 /* AppleDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleDescriptionViewController.swift; sourceTree = "<group>"; };
+		B445E2EFFA2CEEA06347F2F2 /* red_apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red_apple.jpg; sourceTree = "<group>"; };
+		B445E38F1C389435F737EB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B445E493AF99E5D10D835571 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		B445E62C651EB9E8E8F943F1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B445EABF6F76929E3E19A7DA /* 3dtouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3dtouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B445EB7633A80A55F0A7C75E /* AppleDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleDescriptionView.swift; sourceTree = "<group>"; };
+		B445EDFC5F5A463F70A04BF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B445EE13A4A34F923C429637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B445EF333AA0083AF7F36D16 /* green_apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_apple.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B445EAFDDEB3AABB06643363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B445E49287E4EF9FE932EFAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B445EABF6F76929E3E19A7DA /* 3dtouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B445E5030C66F1933526BE6E /* 3dtouch */ = {
+			isa = PBXGroup;
+			children = (
+				B445E01DEB354195F9CA03DE /* Info.plist */,
+				B445EE13A4A34F923C429637 /* Assets.xcassets */,
+				B445E5B73FF7AAD3BBD58B75 /* LaunchScreen.storyboard */,
+				B445EDFC5F5A463F70A04BF9 /* AppDelegate.swift */,
+				B445E803A42247C32874D67F /* Images */,
+				B445EAE98989F058D85BD511 /* Utils */,
+				B445EB4722D37072B8E3F7D4 /* AppleDescription */,
+				B445E6096D212874CCC369C1 /* Models */,
+				B445E62C651EB9E8E8F943F1 /* ViewController.swift */,
+			);
+			path = 3dtouch;
+			sourceTree = "<group>";
+		};
+		B445E6096D212874CCC369C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B445E20D2A9C00F8B0872DDF /* Apple.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B445E803A42247C32874D67F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B445E2EFFA2CEEA06347F2F2 /* red_apple.jpg */,
+				B445EF333AA0083AF7F36D16 /* green_apple.png */,
+				B445E23CF38B64B542283383 /* Apple-35.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B445EAE98989F058D85BD511 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B445E493AF99E5D10D835571 /* UIViewExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B445EB4722D37072B8E3F7D4 /* AppleDescription */ = {
+			isa = PBXGroup;
+			children = (
+				B445E26BAE87053D025FEEE5 /* AppleDescriptionViewController.swift */,
+				B445EB7633A80A55F0A7C75E /* AppleDescriptionView.swift */,
+				B445E0DDF1DF6FC0735E0D06 /* AppleImageView.swift */,
+			);
+			path = AppleDescription;
+			sourceTree = "<group>";
+		};
+		B445EC613195B542936B39E2 = {
+			isa = PBXGroup;
+			children = (
+				B445E49287E4EF9FE932EFAE /* Products */,
+				B445E5030C66F1933526BE6E /* 3dtouch */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B445EA454FDEA2D36B9F285B /* 3dtouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B445EBC26E61C887971B1470 /* Build configuration list for PBXNativeTarget "3dtouch" */;
+			buildPhases = (
+				B445ECE51E19B134986216C4 /* Sources */,
+				B445EAFDDEB3AABB06643363 /* Frameworks */,
+				B445E2CCE5F1F0D2B8149BBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3dtouch;
+			productName = 3dtouch;
+			productReference = B445EABF6F76929E3E19A7DA /* 3dtouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B445E92CC3D376960FF33652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = k8mil;
+				TargetAttributes = {
+					B445EA454FDEA2D36B9F285B = {
+						DevelopmentTeam = V7CPJZJMWH;
+					};
+				};
+			};
+			buildConfigurationList = B445EFD4B970EE000222AD55 /* Build configuration list for PBXProject "3dtouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B445EC613195B542936B39E2;
+			productRefGroup = B445E49287E4EF9FE932EFAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B445EA454FDEA2D36B9F285B /* 3dtouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B445E2CCE5F1F0D2B8149BBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B445EA9563A0C6ADABB0FFFC /* Info.plist in Resources */,
+				B445E173AAD7D90BFB6E5871 /* Assets.xcassets in Resources */,
+				B445EC6982C939B97ED349A5 /* LaunchScreen.storyboard in Resources */,
+				B445E2CE270E4B5D7AC27FDA /* red_apple.jpg in Resources */,
+				B445E1C792FBD90E1EA04A92 /* green_apple.png in Resources */,
+				B445E2C6F30A12527CAEC06F /* Apple-35.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B445ECE51E19B134986216C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B445E73E1B12CE3451E1C5CD /* AppDelegate.swift in Sources */,
+				B445EC5FFBF15482BEB1EF5C /* AppleDescriptionViewController.swift in Sources */,
+				B445EDB8CD46EA77F6ED9101 /* Apple.swift in Sources */,
+				B445EE16EB49254166D28EAA /* AppleDescriptionView.swift in Sources */,
+				B445EF1B7DE283E25F4FB033 /* UIViewExtension.swift in Sources */,
+				B445E04BC7A4B705E82739FB /* ViewController.swift in Sources */,
+				B445E92233D14F592D09EFAA /* AppleImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B445E5B73FF7AAD3BBD58B75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B445E38F1C389435F737EB46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B445E19F9E571F6BBCBE51D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7CPJZJMWH;
+				INFOPLIST_FILE = 3dtouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = k8mil.3dtouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B445E7C379FF12183E0510BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B445E8CBCDF755EDE3BEAAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B445EBC0D82261184E4127EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7CPJZJMWH;
+				INFOPLIST_FILE = 3dtouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = k8mil.3dtouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B445EBC26E61C887971B1470 /* Build configuration list for PBXNativeTarget "3dtouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B445EBC0D82261184E4127EB /* Debug */,
+				B445E19F9E571F6BBCBE51D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B445EFD4B970EE000222AD55 /* Build configuration list for PBXProject "3dtouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B445E7C379FF12183E0510BA /* Debug */,
+				B445E8CBCDF755EDE3BEAAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B445E92CC3D376960FF33652 /* Project object */;
+}
