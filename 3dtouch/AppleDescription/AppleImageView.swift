@@ -17,6 +17,15 @@ class AppleImageView: UIImageView {
         super.init(image : image)
         self.appleDescription = appleDescription
     }
-
+	
+	// override point(inside:with:) to set if the view was clicked or not
+	
+	override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+		guard let superview = superview else {
+			return false
+		}
+		let locationInView = convert(point, from: superview)
+		return bounds.contains(locationInView)
+	}
 
 }

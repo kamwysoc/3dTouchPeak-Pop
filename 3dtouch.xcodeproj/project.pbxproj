@@ -19,7 +19,6 @@
 		B445EC6982C939B97ED349A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B445E5B73FF7AAD3BBD58B75 /* LaunchScreen.storyboard */; };
 		B445EDB8CD46EA77F6ED9101 /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445E20D2A9C00F8B0872DDF /* Apple.swift */; };
 		B445EE16EB49254166D28EAA /* AppleDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445EB7633A80A55F0A7C75E /* AppleDescriptionView.swift */; };
-		B445EF1B7DE283E25F4FB033 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445E493AF99E5D10D835571 /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		B445E26BAE87053D025FEEE5 /* AppleDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleDescriptionViewController.swift; sourceTree = "<group>"; };
 		B445E2EFFA2CEEA06347F2F2 /* red_apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red_apple.jpg; sourceTree = "<group>"; };
 		B445E38F1C389435F737EB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B445E493AF99E5D10D835571 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		B445E62C651EB9E8E8F943F1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B445EABF6F76929E3E19A7DA /* 3dtouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3dtouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B445EB7633A80A55F0A7C75E /* AppleDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleDescriptionView.swift; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 				B445E5B73FF7AAD3BBD58B75 /* LaunchScreen.storyboard */,
 				B445EDFC5F5A463F70A04BF9 /* AppDelegate.swift */,
 				B445E803A42247C32874D67F /* Images */,
-				B445EAE98989F058D85BD511 /* Utils */,
 				B445EB4722D37072B8E3F7D4 /* AppleDescription */,
 				B445E6096D212874CCC369C1 /* Models */,
 				B445E62C651EB9E8E8F943F1 /* ViewController.swift */,
@@ -90,14 +87,6 @@
 				B445E23CF38B64B542283383 /* Apple-35.png */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		B445EAE98989F058D85BD511 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				B445E493AF99E5D10D835571 /* UIViewExtension.swift */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		B445EB4722D37072B8E3F7D4 /* AppleDescription */ = {
@@ -147,7 +136,7 @@
 				ORGANIZATIONNAME = k8mil;
 				TargetAttributes = {
 					B445EA454FDEA2D36B9F285B = {
-						DevelopmentTeam = V7CPJZJMWH;
+						DevelopmentTeam = SS584US562;
 					};
 				};
 			};
@@ -193,7 +182,6 @@
 				B445EC5FFBF15482BEB1EF5C /* AppleDescriptionViewController.swift in Sources */,
 				B445EDB8CD46EA77F6ED9101 /* Apple.swift in Sources */,
 				B445EE16EB49254166D28EAA /* AppleDescriptionView.swift in Sources */,
-				B445EF1B7DE283E25F4FB033 /* UIViewExtension.swift in Sources */,
 				B445E04BC7A4B705E82739FB /* ViewController.swift in Sources */,
 				B445E92233D14F592D09EFAA /* AppleImageView.swift in Sources */,
 			);
@@ -217,7 +205,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = V7CPJZJMWH;
+				DEVELOPMENT_TEAM = SS584US562;
 				INFOPLIST_FILE = 3dtouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = k8mil.3dtouch;
@@ -323,7 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = V7CPJZJMWH;
+				DEVELOPMENT_TEAM = SS584US562;
 				INFOPLIST_FILE = 3dtouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = k8mil.3dtouch;

@@ -61,7 +61,7 @@ class ViewController: UIViewController {
 extension ViewController: UIViewControllerPreviewingDelegate {
 
     func previewingContext(_ previewingContext: UIViewControllerPreviewing, viewControllerForLocation location: CGPoint) -> UIViewController? {
-        for forceTouchableView in forceTouchableViews where forceTouchableView.wasTouched(in: location) {
+		for forceTouchableView in forceTouchableViews where forceTouchableView.point(inside: location, with: nil) {
             let apple = Apple(description: forceTouchableView.appleDescription, image: forceTouchableView.image!)
             let vc = AppleDescriptionViewController(apple: apple)
             return vc
